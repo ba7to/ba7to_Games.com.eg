@@ -5,7 +5,8 @@ import car_img from "./img/game.ico"
 import mario_img from "./favicon.ico"
 import bat_img from "./img/Splash.bmp"
 import col_img from "./img/تنزيل (3).jpeg"
-import srch from "./img/تنزيل (1).jpeg"
+import Gta_img from "./img/تنزيل (4).jpeg"
+import spider_img from "./img/تنزيل (5).jpeg"
 export const metadata: Metadata = {
   title: "ba7to_Games",
   description: "",
@@ -14,18 +15,7 @@ function Home() {
     return(
     <>
     <div id="big_box" className={Styles["big_container"]}>
-    <form className={Styles["search-bar-container"]}>
-        <input type="search" className={Styles["search_bar"]} id="search_bar" placeholder="Games" list="Games"/>
-        <datalist id="Games">
-            <option>Call of dute modern warfare 3</option>
-            <option>Need for speed most wanted 2012</option>
-            <option>Marion Forver</option>
-            <option>Batman Arkam asylum</option>
-        </datalist>
-         <button  className="Search_button"><Image height={40} width={40} alt="search_button" src={srch}/></button>
-        <br/>
-        <br/>
-    </form>
+            <h1 className={Styles["head1"]}>PC_Games:</h1>
             <a href="https://up.downloadcomputergames.net/2021/04/need-for-speed/Need-for-Speed-Most-Wanted-2012.zip"><div className={Styles["b1"]} id="first_game">
             <Image  className={Styles["g1"]}  alt="g1" src={car_img}/>
             <h1>Need for speed most wanted 2012<br/>Size:6G.b</h1>
@@ -43,10 +33,18 @@ function Home() {
             <Image  className={Styles["g4"]}  alt="g4" src={col_img}/>
             <h1>Call of dute modern warfer 3<br/>Size:8.29G.b</h1>
             </div></a>
+            <a href="https://up.downloadcomputergames.net/2020/10/download-gta-5-for-pc/GTA-V.zip"><div className={Styles["b5"]} id="fifth_game">
+            <Image  className={Styles["g5"]}  alt="g5" src={Gta_img}/>
+            <h1>Gta-V<br/>Size:30G.b</h1>
+            </div></a>
+            <a href="https://uptogames.net/download/#https://s2.uptogames.net/do.php?down=Marvels-SpiderMan-Remastered.rar"><div className={Styles["b6"]} id="sixth_game">
+            <Image  className={Styles["g6"]}  alt="g6" src={spider_img}/>
+            <h1>Spider man Remasterd<br/>Size:40G.b</h1>
+            </div></a>
         </div>
-        <br/>
         </div>
     </>
     )
  }
+
 export default Home
