@@ -26,7 +26,6 @@ function Home() {
         <br/>
         <br/>
     </form>
-        <div className={Styles["game_box"]} id="Game_box">
             <a href="https://up.downloadcomputergames.net/2021/04/need-for-speed/Need-for-Speed-Most-Wanted-2012.zip"><div className={Styles["b1"]} id="first_game">
             <Image  className={Styles["g1"]}  alt="g1" src={car_img}/>
             <h1>Need for speed most wanted 2012<br/>Size:6G.b</h1>
@@ -35,9 +34,7 @@ function Home() {
             <Image  className={Styles["g2"]}  alt="g2" src={mario_img}/>
             <h1>Marion Forver<br/>Size:30M.b</h1>
             </div></a>
-        </div>
-        <br/>
-        <div className={Styles["second_line"]}>
+            <div>
         <a href="https://up.downloadcomputergames.net/2020/11/batman-for-pc/Batman-Arkham-Asylum.zip"><div className={Styles["b3"]} id="third_game">
             <Image  className={Styles["g3"]}  alt="g3" src={bat_img}/>
             <h1>Batman Arkam asylum<br/>Size:7.33G.b</h1>
@@ -46,7 +43,8 @@ function Home() {
             <Image  className={Styles["g4"]}  alt="g4" src={col_img}/>
             <h1>Call of dute modern warfer 3<br/>Size:8.29G.b</h1>
             </div></a>
-            </div>
+        </div>
+        <br/>
         </div>
     </>
     )
