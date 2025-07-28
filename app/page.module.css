@@ -1,0 +1,107 @@
+.big_container{
+    background-image: url(./img/wp9118793-4k-mario-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.search-bar-container{
+    display: flex; /* Aligns input and button horizontally */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 82%;
+  overflow: hidden; /* Ensures rounded corners apply correctly */
+}
+.search-bar{
+    flex-grow: 1; /* Allows input to take available space */
+  padding: 10px 15px;
+  border: none;
+  outline: none; /* Removes default focus outline */
+  font-size: 16px;
+}
+.Search_button{
+     background-color: #007bff; /* Example background color */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex; /* For centering icon if used */
+  align-items: left;
+  justify-content:left;
+  height: 10px;
+  width: 10px;
+}
+.search-button:hover {
+  background-color: #000000; /* Darker on hover */
+}
+.g1{
+    height: 190px;
+    margin-left: 5px;
+    margin-top: 6px;
+    width: 98%;
+}
+.b1{
+    background-color: red;
+     height: 300px;
+     width: 460px;
+    margin-top: 50px;
+      border-style: ridge;
+    border-color: white;
+    border-radius: 10px;
+}
+.g2{
+    height: 190px;
+    margin-left: 5px;
+    margin-top: 6px;
+    width: 98%;
+}
+.b2{
+    background-color: red;
+     height: 300px;
+     width: 460px;
+    margin-top: 50px;
+    margin-left: 70%;
+      border-style: ridge;
+    border-color: white;
+    border-radius: 10px;
+}
+
+
+.g3{
+    height: 190px;
+    margin-left: 5px;
+    margin-top: 6px;
+    width: 98%;
+}
+.b3{
+    background-color: red;
+     height: 300px;
+     width: 460px;
+    margin-top: 50px;
+      border-style: ridge;
+    border-color: white;
+    border-radius: 10px;
+}
+.g4{
+    height: 190px;
+    margin-left: 5px;
+    margin-top: 6px;
+    width: 98%;
+}
+.b4{
+    background-color: red;
+     height: 300px;
+     width: 460px;
+    margin-top: 50px;
+      border-style: ridge;
+    border-color: white;
+    border-radius: 10px;
+    margin-left:69%;
+}
+.game_box{
+    display:flex;
+}
+.second_line{
+    display: flex;
+}
