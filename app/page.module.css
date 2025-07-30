@@ -1,3 +1,49 @@
+.search-container {
+    display: flex; /* لعرض العناصر بجانب بعضها البعض */
+    align-items: center; /* لمحاذاة العناصر عموديًا في المنتصف */
+    background-color: #f0f2f5; /* لون خلفية للحاوية */
+    border-radius: 50px; /* زوايا مستديرة للحاوية */
+    padding: 8px 15px; /* مساحة داخلية */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف للحاوية */
+    width: fit-content; /* يجعل العرض يتناسب مع المحتوى */
+    margin: 50px auto; /* لتوسيط شريط البحث */
+}
+
+.search-input {
+    border: none; /* إزالة الحدود الافتراضية */
+    outline: none; /* إزالة الخطوط العريضة عند التركيز */
+    background: transparent; /* خلفية شفافة */
+    padding: 10px 15px; /* مساحة داخلية */
+    font-size: 16px; /* حجم الخط */
+    color: #333; /* لون النص */
+    flex-grow: 1; /* يجعل حقل الإدخال يأخذ المساحة المتاحة */
+    width: 250px; /* عرض مبدئي للحقل */
+}
+
+.search-input::placeholder {
+    color: #999; /* لون النص التوجيهي */
+}
+
+.search-button {
+    background-color:white; /* لون خلفية الزر */
+    color: white; /* لون نص الزر */
+    border: none; /* إزالة حدود الزر */
+    border-radius: 50px; /* زوايا مستديرة للزر */
+    padding: 10px 20px; /* مساحة داخلية للزر */
+    font-size: 16px; /* حجم خط الزر */
+    cursor: pointer; /* تغيير مؤشر الماوس عند المرور فوق الزر */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* تأثيرات انتقالية */
+    margin-left: 10px; /* مسافة بين حقل الإدخال والزر */
+}
+
+.search-button:hover {
+    transform: translateY(-2px); /* تحريك الزر لأعلى قليلًا */
+}
+
+.search-input:focus {
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3); /* ظل أزرق عند التركيز على حقل الإدخال */
+    border-radius: 50px; /* للحفاظ على الزوايا المستديرة */
+}
 .head1{
   border-color: rgb(0, 0, 0);
   border-style: ridge;
@@ -6,11 +52,40 @@
   width: 200px;
   background-color: red;
 }
+.head2{
+  border-color: rgb(0, 0, 0);
+  border-style: ridge;
+  border-radius: 3px;
+  margin-left: 10px;
+  width: 200px;
+  background-color:blue;
+}
+.head3{
+  border-color: rgb(0, 0, 0);
+  border-style: ridge;
+  border-radius: 3px;
+  margin-left: 10px;
+  width: 200px;
+  background-color:white;
+}
+.head4{
+  border-color: rgb(0, 0, 0);
+  border-style: ridge;
+  border-radius: 3px;
+  margin-left: 10px;
+  width: 200px;
+  background-color: red;
+}
+.head5{
+  border-color: rgb(0, 0, 0);
+  border-style: ridge;
+  border-radius: 3px;
+  margin-left: 10px;
+  width: 200px;
+  background-color:blue;
+}
 .big_container{
     background-image: url(./img/wp9118793-4k-mario-wallpapers.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 .g1{
     height: 190px;
@@ -104,4 +179,48 @@
     border-radius: 10px;
     margin-left:50%;
 }
-
+.nav1{
+  display: flex;
+  gap: 20px;
+  border:solid;
+  border-color: black;
+  list-style: none;
+  margin-left: 900px;
+  border-radius: 3px;
+  background-color: white;
+  width:250px;
+}
+.list1{
+  background-color: red;
+  border:solid;
+  border-color: black;
+  color: white;
+  border-radius: 3px;
+  transition:background-color 1s;
+}
+.list1:hover{
+  background-color: rgb(239, 105, 105);
+}
+.list2{
+  background-color: blue;
+  border:solid;
+  border-color: black;
+  border-radius: 3px;
+}
+.list3{
+  background-color: rgb(255, 255, 255);
+  border:solid;
+  border-color: black;
+  border-radius: 3px;
+}
+ .list4{
+  background-color: red;
+  border:solid;
+  border-color: black;
+  color: white;
+  border-radius: 3px;
+}
+.search{
+  width: 50px;
+  height: 50px;
+}

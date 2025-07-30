@@ -7,18 +7,24 @@ import bat_img from "./img/Splash.bmp"
 import col_img from "./img/تنزيل (3).jpeg"
 import Gta_img from "./img/تنزيل (4).jpeg"
 import spider_img from "./img/تنزيل (5).jpeg"
+import serch from "./img/تنزيل (1).jpeg"
 export const metadata: Metadata = {
   title: "ba7to_Games",
-  description: "",
+  description: "It,s website to download pc games mobile games psp,ps1,ps2 games",
 };
 function Home() {
     return(
     <>
     <div id="big_box" className={Styles["big_container"]}>
+            <div className={Styles["search-container"]}>
+                <input type="text" className={Styles["search-input"]} placeholder="Search Games"/>
+                <button className={Styles["search-button"]}><Image className={Styles["search"]} src={serch} alt="searck_Logo"/></button>
+            </div>
             <h1 className={Styles["head1"]}>PC_Games:</h1>
+            <div id="pc_games">
             <a href="https://up.downloadcomputergames.net/2021/04/need-for-speed/Need-for-Speed-Most-Wanted-2012.zip"><div className={Styles["b1"]} id="first_game">
             <Image  className={Styles["g1"]}  alt="g1" src={car_img}/>
-            <h1>Need for speed most wanted 2012<br/>Size:6G.b</h1>
+            <h1>Need for speed most wanted<br/>Size:6G.b</h1>
             </div></a>
             <a href="https://up.downloadcomputergames.net/2020/08/super-mario/Super-Mario.zip"><div className={Styles["b2"]} id="second_game">
             <Image  className={Styles["g2"]}  alt="g2" src={mario_img}/>
@@ -31,7 +37,7 @@ function Home() {
             </div></a>
         <a href="https://up.downloadcomputergames.net/2022/06/call-of-duty-modern-warfare-3/Call-of-Duty-Modern-Warfare-3.zip"><div className={Styles["b4"]} id="Fourth_game">
             <Image  className={Styles["g4"]}  alt="g4" src={col_img}/>
-            <h1>Call of dute modern warfer 3<br/>Size:8.29G.b</h1>
+            <h1>Call of dute modern warfer3<br/>Size:8.29G.b</h1>
             </div></a>
             <a href="https://up.downloadcomputergames.net/2020/10/download-gta-5-for-pc/GTA-V.zip"><div className={Styles["b5"]} id="fifth_game">
             <Image  className={Styles["g5"]}  alt="g5" src={Gta_img}/>
@@ -41,6 +47,7 @@ function Home() {
             <Image  className={Styles["g6"]}  alt="g6" src={spider_img}/>
             <h1>Spider man Remasterd<br/>Size:40G.b</h1>
             </div></a>
+            </div>
         </div>
         </div>
     </>
