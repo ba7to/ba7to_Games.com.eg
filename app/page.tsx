@@ -9,7 +9,7 @@ import Gta_img from "./img/تنزيل (4).jpeg"
 import spider_img from "./img/تنزيل (5).jpeg"
 import serch from "./img/تنزيل (1).jpeg"
 export const metadata: Metadata = {
-  title: "ba7to_Games",
+  title: "ba7to_Games_git",
   description: "It,s website to download pc games",
 };
 function Home() {
