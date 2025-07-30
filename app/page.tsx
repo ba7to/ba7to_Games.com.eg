@@ -15,8 +15,7 @@ export const metadata: Metadata = {
 function Home() {
     return(
     <>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8865069421209568"
-    ></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8865069421209568"></script>
     <div id="big_box" className={Styles["big_container"]}>
             <div className={Styles["search-container"]}>
                 <input type="text" className={Styles["search-input"]} placeholder="Search Games"/>
