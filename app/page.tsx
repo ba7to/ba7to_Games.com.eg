@@ -10,11 +10,13 @@ import spider_img from "./img/تنزيل (5).jpeg"
 import serch from "./img/تنزيل (1).jpeg"
 export const metadata: Metadata = {
   title: "ba7to_Games",
-  description: "It,s website to download pc games mobile games psp,ps1,ps2 games",
+  description: "It,s website to download pc games",
 };
 function Home() {
     return(
     <>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8865069421209568"
+    ></script>
     <div id="big_box" className={Styles["big_container"]}>
             <div className={Styles["search-container"]}>
                 <input type="text" className={Styles["search-input"]} placeholder="Search Games"/>
