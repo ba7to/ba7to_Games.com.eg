@@ -1,7 +1,7 @@
 .search-container {
     display: flex; /* لعرض العناصر بجانب بعضها البعض */
     align-items: center; /* لمحاذاة العناصر عموديًا في المنتصف */
-    background-color: #f0f2f5; /* لون خلفية للحاوية */
+    background-color: red; /* لون خلفية للحاوية */
     border-radius: 50px; /* زوايا مستديرة للحاوية */
     padding: 8px 15px; /* مساحة داخلية */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف للحاوية */
@@ -97,6 +97,7 @@
     background-color: red;
      height: 300px;
      width: 460px;
+     margin-left: 400px;
       border-style: ridge;
     border-color: white;
     border-radius: 10px;
