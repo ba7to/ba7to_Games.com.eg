@@ -96,8 +96,8 @@
 .b1{
     background-color: red;
      height: 300px;
-     width: 460px;
-     margin-left: 400px;
+     width: 860px;
+     margin-left:20%;
       border-style: ridge;
     border-color: white;
     border-radius: 10px;
